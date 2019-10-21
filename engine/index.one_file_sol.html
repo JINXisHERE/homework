@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="background_styles.css">
+    <link rel="stylesheet" href="style/engine.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Game Engine</title>
+</head>
+
+<body>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="full-screen-video-container">
+                    <video autoplay loop muted>
+                        <source src="videos/1.mov" type="video/mp4" />
+                    </video>
+                    <div class="full-screen-video-content">
+                        <input id="button" type="button" value="Přepnout na zajímavosti" onclick="myFunction1()"></input>
+                        <br>
+                        <div id="h1">
+                            <h1>RAGE Engine</h1>
+                        </div>
+                        <div id="owner">
+                            vývojáři: RAGE Technology Group (Rockstar San Diego)
+                        </div>
+                        <div id="front1">
+                            <div id="games">
+                                <h3>Hry</h3> Grand Theft Auto IV
+                                <br> MAX PAIN 3
+                                <br> Grand Theft Auto IV: The Lost and Damned
+                                <br> Grand Theft Auto: The Ballad of Gay Tony
+                                <br> Grand Theft Auto V
+                                <br> Red Dead Redemption
+                                <br> Red Dead Redemption2
+                                <br>
+                            </div>
+                            <div id="scripts">
+                                <h3>Jazyk</h3> C++
+                                <br> C#
+                                <br>
+
+                            </div>
+                            <div id="info">
+                                <h3>Platformy</h3> macOS
+                                <br> Microsoft Windows
+                                <br> PlayStation 3
+                                <br> PlayStation 4
+                                <br> Xbox 360
+                                <br> Xbox One
+                                <br> Stadia
+                                <br> Wii
+                            </div>
+
+                        </div>
+
+                        <div id="back1">
+                            <h1>zajímavosti</h1> 1. první hry, Rockstar Games Presents Table Tennis v roce 2006, od té doby začal Rockstar pouzivat RAGE na vývoj her.
+                            <br> 2. předchůdce a engine na kterem je postaven je RENDER WARE od Criterion Software.
+                            <br> 3. V roce 2004 Criterion Games byl odkoupen Electronic Arts, díky tomu se otevrelo oddělení RAGE Technology Group, vysledek byl RAGE engine.
+                            <br>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="full-screen-video-container">
+                    <video autoplay loop muted>
+                        <source src="videos/2.mov" type="video/mp4" />
+                    </video>
+                    <div class="full-screen-video-content">
+                        <input id="button2" type="button" value="Přepnout na zajímavosti" onclick="myFunction2()"></input>
+                        <br>
+                        <div id="h1">
+                            <h1>Unreal Engine</h1>
+                        </div>
+                        <div id="owner">
+                            maijtel:Epic Games
+                            <br> vývojář: Tim Sweeney (1998)
+                        </div>
+                        <div id="front2">
+                            <div id="games">
+                                <h3>Nejznámější Hry</h3> Borderlands
+                                <br> Borderlands:the pre-sequel
+                                <br> Borderlands 2
+                                <br> Borderlands 3
+                                <br> Rocket league
+                                <br> Mortal Combat X
+                                <br>
+                            </div>
+                            <div id="scripts">
+                                <h3>Jazyk</h3> C++
+                                <br> C#
+                                <br>
+
+                            </div>
+                            <div id="info">
+                                <h3>Platformy</h3> macOS
+                                <br> Microsoft Windows
+                                <br> PlayStation 3
+                                <br> PlayStation 4
+                                <br> Xbox 360
+                                <br> Xbox One
+                                <br> Stadia
+                                <br> Wii
+                                <br>
+                            </div>
+                        </div>
+                        <div id="back2">
+                            <h1>zajímavosti</h1>
+                            <p>
+                                1. první verze z roku 1998 byla použita ve hře Unreal.
+                                <br> 2. Původně byl tento engine určen pouze pro střílečky z pohledu první osoby, ale našel využití i v některých MMORPG, RPG a adventurách.
+                                <br> 3. Verze: UE 1, UE 1.5, UE2/2.5/2x , UE3, UE 4
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</body>
+<script>
+    function myFunction1() {
+        var x = document.getElementById("front1");
+        var y = document.getElementById("back1");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            y.style.display = "none";
+        } else {
+            x.style.display = "none";
+            y.style.display = "block";
+        }
+        var elem = document.getElementById("button");
+        if (elem.value == "Přepnout na zajímavosti") elem.value = "Přepnout na obecné informace";
+        else elem.value = "Přepnout na zajímavosti";
+    }
+
+    function myFunction2() {
+        var x = document.getElementById("front2");
+        var y = document.getElementById("back2");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            y.style.display = "none";
+        } else {
+            x.style.display = "none";
+            y.style.display = "block";
+        }
+        var elem = document.getElementById("button2");
+        if (elem.value == "Přepnout na zajímavosti") elem.value = "Přepnout na obecné informace";
+        else elem.value = "Přepnout na zajímavosti";
+    }
+</script>
+<style>
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+html, body {
+  margin: 0;
+  font-family: 'Lato', sans-serif !important;
+}
+
+.full-screen-video-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.full-screen-video-container video {
+  z-index: -1;
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.full-screen-video-container .full-screen-video-content {
+  background-color: rgba(0, 0, 0, 0.322);
+  color: white;
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+  width: 1000px;
+  height: 500px;
+}
+
+#h1 {
+  width: 100%;
+  border: 1px solid TRANSPARENT;
+  z-index: 2;
+}
+
+#games, #info, #scripts {
+  width: 100%;
+  width: 300px;
+  display: inline-block !important;
+  text-align: left;
+  vertical-align: top;
+}
+
+#games h3, #info h3, #scripts h3 {
+  text-align: center;
+}
+
+#owner {
+  width: 100%;
+  border: 1px solid TRANSPARENT;
+}
+
+.overlay:hover,
+#games, #info, #scripts {
+  display: none;
+}
+
+input[type=button], input[type=button2] {
+  background: transparent;
+  outline: none;
+  border: 1px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+input[type=button]:hover, input[type=button2]:hover {
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+}
+
+#front1, #front2 {
+  display: block;
+}
+
+#back1, #back2 {
+  display: none;
+  text-align: left;
+}
+/*# sourceMappingURL=engine.css.map */
+</style>
+
+</html>
