@@ -1,2 +1,0 @@
-<h2>How to use Easy Template </h2>
-<p><b>Well like its says its easy</b><br><b>First:</b>set up your values in the index.php file, and if you want to put in longer text juts import the text file with the existing function and its done<br> <b>Secondly:</b>costumise the tpl.html file to your llikeing and your done<br>Easy aint it</p>

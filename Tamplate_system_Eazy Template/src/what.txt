@@ -1,2 +1,0 @@
-<h2>What’s Easy Template? </h2>
-<p>Easy Template is a Templating system that helps you create costume web pages with eass</p>

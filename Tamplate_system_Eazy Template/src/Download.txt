@@ -1,3 +1,0 @@
-<h2>Download Easy template </h2>
-<p>Easy template is open sprce and free to use</p>
-<a href=”download/ET.zip”>Use this link</a>
