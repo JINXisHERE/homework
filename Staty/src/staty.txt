@@ -1,0 +1,80 @@
+    <div id="de"></div>
+    <div class="box">
+    <div id="textbox" style="margin-top=20%;">
+        <h1>Německo</h1>
+        <h2>Hlavní město: Berlín</h2>
+        <h3>83,02 milionů</h3>
+        </div>
+    </div>
+    <div id="A"></div>  
+    <div class="box">
+    <div id="textbox">
+        <h1>Rakousko</h1>
+        <h2>Hlavní město: Vídeň</h2>
+        <h3>8,859 milionů</h3>
+        </div>
+    </div>
+    <div id="Gb"></div>   
+    <div class="box">
+    <div id="textbox">
+        <h1>Velká Británie</h1>
+        <h2>Hlavní město: Londýn</h2>
+        <h3> 66,65 milionů</h3>
+        </div>
+    </div>
+    <div id="Fr"></div>   
+    <div class="box">
+    <div id="textbox">
+        <h1>Francie</h1>
+        <h2>Hlavní město: eiffelovka</h2>
+        <h3>66,99 Baget</h3>
+        </div>
+    </div>
+    <div id="US"></div>   
+    <div class="box">
+    <div id="textbox">
+        <h1>Spojené státy americké</h1>
+        <h2>Hlavní město: Washington, D.C.</h2>
+        <h3>328,2 milionů</h3>
+        </div>
+    </div>
+    <div id="It"></div>   
+    <div class="box" >
+    <div id="textbox">
+        <h1>Itálie</h1>
+        <h2>Hlavní město: Řím</h2>
+        <h3>60,36 milionů</h3>
+        </div>
+    </div>
+    <div  id="Sp"></div>   
+    <div class="box">
+    <div id="textbox">
+        <h1>Španělsko</h1>
+        <h2>Hlavní město: Madrid</h2>
+        <h3> 46,94 milionů</h3>
+        </div>
+    </div>
+    <div id="Pr"></div>   
+    <div class="box">
+    <div id="textbox">
+        <h1>Portugalsko</h1>
+        <h2>Hlavní město: Lisabon</h2>
+        <h3> 10,28 milionů </h3>
+        </div>
+    </div>
+    <div id="Gr"></div>   
+    <div class="box" >
+    <div id="textbox">
+        <h1>Řecko</h1>
+        <h2>Hlavní město: Atény</h2>
+        <h3>10,72 milionů </h3>
+        </div>
+    </div>
+    <div id="Ug"></div>   
+    <div class="box">
+    <div id="textbox">
+        <h1>Uganda</h1>
+        <h2>Hlavní město: Kampala</h2>
+        <h3>42,72 milionů </h3>
+        </div>
+    </div>
