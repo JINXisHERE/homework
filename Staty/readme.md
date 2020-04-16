@@ -1,6 +1,6 @@
 # Staty
 
-Jednoduše si vyberte stát z lišty… těžký co 
+Jednoduše si vyberte stát z lišty… těžký co😂
 
 # Verze 1.0
 
