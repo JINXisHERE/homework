@@ -1,0 +1,28 @@
+// $base-font:;
+// $Text-color:;
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    overflow-x: hidden;
+}
+
+.flexcon{
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 55px;
+    margin: auto;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+    .grid-con{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        #grid-item{
+            margin: auto;
+        }
+    }
+}
