@@ -36,4 +36,62 @@ body {
 .flexcon .grid-con #grid-item {
   margin: auto;
 }
+
+.Header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-area: header;
+}
+
+.Menu {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: menu;
+}
+
+.Main {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 5;
+  grid-area: main;
+}
+
+.Right {
+  grid-area: right;
+}
+
+.Footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-area: footer;
+}
+
+.Left {
+  grid-area: left;
+}
+
+.grid-container {
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'header header header header header header' 'menu main main main main main' 'menu main main main main main ' 'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #1f1f1f;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
 /*# sourceMappingURL=styles.css.map */

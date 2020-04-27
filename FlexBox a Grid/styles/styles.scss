@@ -26,3 +26,35 @@ body{
         }
     }
 }
+
+.Header{ grid-area: header; }
+.Menu { grid-area: menu; }
+.Main { grid-area: main; }
+.Right { grid-area: right; }
+.Footer { grid-area: footer; }
+.Left { grid-area: left; }
+
+.grid-container {
+    position: absolute;
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main main main'
+      'menu main main main main main '
+      'footer footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: rgb(31, 31, 31);
+    padding: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
